@@ -1,0 +1,13 @@
+prefix=/Users/nishthahooda/Movie Recommendation System/env
+exec_prefix=/Users/nishthahooda/Movie Recommendation System/env
+libdir=/Users/nishthahooda/Movie Recommendation System/env/lib
+sharedlibdir=/Users/nishthahooda/Movie Recommendation System/env/lib
+includedir=/Users/nishthahooda/Movie Recommendation System/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
