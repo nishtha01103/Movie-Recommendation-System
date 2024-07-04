@@ -2,7 +2,7 @@ from setuptools import setup
 
 with open ("README.md", "r", encoding="utf-8") as fh:
    long_description = fh.read()
-AUTHOR_NAME = 'BAPPY AHMED'
+AUTHOR_NAME = 'NISHTHA'
 SRC_REPO = 'src'
 LIST_OF_REQUIREMENTS = ['sreamlit' ]
 setup(
